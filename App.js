@@ -7,6 +7,10 @@ import SectionLis from './src/components/SectionLis';
 
 import Picker from './src/components/Picker';
 import Swit from './src/components/Switch';
+import Slide from './src/components/Slide';
+import Modall from './src/components/Modall';
+import StatusBa from './src/components/StatusBa';
+
 
 export default class App extends Component{
   render(){
@@ -17,8 +21,10 @@ export default class App extends Component{
           {/* <FlatLis /> */}
           {/* <SectionLis /> */}
           {/* <Picker /> */}
-
-          <Swit />
+          {/* <Swit /> */}
+          {/* <Slide /> */}
+          {/* < Modall /> */}
+          <StatusBa />
       </View>
     );
   }
