@@ -10,7 +10,8 @@ import Swit from './src/components/Switch';
 import Slide from './src/components/Slide';
 import Modall from './src/components/Modall';
 import StatusBa from './src/components/StatusBa';
-
+import Storage from './src/components/Storage';
+import Plataform from './src/components/Plataforma'
 
 export default class App extends Component{
   render(){
@@ -24,7 +25,9 @@ export default class App extends Component{
           {/* <Swit /> */}
           {/* <Slide /> */}
           {/* < Modall /> */}
-          <StatusBa />
+          {/* <StatusBa /> */}
+          {/* < Storage /> */}
+          <Plataform />
       </View>
     );
   }
